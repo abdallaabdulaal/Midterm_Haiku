@@ -1,0 +1,32 @@
+/* CSS Document */
+
+body {
+	background:url(Assets/bamboo-wall-wallpaper.jpg) repeat top left;
+	font-family:Verdana, Geneva, sans-serif;
+}
+
+#all {
+	background:#FFFFCC;
+	margin: 0 auto;
+	margin-top: 4em;
+	padding: 3em;
+	width: 50%;
+	border-radius: 15px;
+}
+
+.deleteMe {
+	background-color:#33FF00;
+}
+
+#haikus {
+	font-size: 60%;
+	column-count: 3;
+	-moz-column-count: 3;
+	-webkit-column-count: 3;
+}
+
+#haikus .haiku {
+/* the following line is here to stop the column-count property from
+splitting one haiku into multiple columns. */
+	display: inline-block;
+}
